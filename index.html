@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- ??? -->
+    <script src="https://unpkg.com/vue@next"> </script>  <!-- Vue 3.0 -->
+
+    <title>TTT v2</title>
+</head>
+
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <!-- Dropdown button -->
+    <div class="dropdown-menu">
+        <button class="menu-btn">Single player</button>
+        <div class="menu-content">
+            <a class="links" href="#">Single player</a>
+            <a class="links" href="#">Two players</a>
+        </div>
+    </div>
+
+    <div class="btn-figures">
+        <button class="btn">X</button>
+        <button class="btn">O</button>
+    </div>
+
+    <div class="board">
+        <div class="cell board_one">   </div>
+        <div class="cell board_two">   </div>
+        <div class="cell board_three"> </div>
+        <div class="cell board_four">  </div>
+        <div class="cell board_five">  </div>
+        <div class="cell board_six">   </div>
+        <div class="cell board_seven"> </div>
+        <div class="cell board_eight"> </div>
+        <div class="cell board_nin">   </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id='end-msg'> </h2>
+            <button class="btn restart"> Restart </button>
+        </div>
+    </div>
+
+<script src='script.js' refer> </script>             <!-- My script -->
+</body>
+
+</html>
