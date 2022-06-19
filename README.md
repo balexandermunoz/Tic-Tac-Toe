@@ -4,7 +4,3 @@ A Tic-Tac-Toe game on your browser. 100% responsive 📱 💻. You can play agai
 [Live demo](https://balexandermunoz.github.io/Tic-Tac-Toe/)
 
 It's very funny.
-
-Holi
-
-Holi
